@@ -39,6 +39,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		0E5B21FC2D6E4D99003DD485 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		C26ACC3A2D3C673900170459 /* Fonts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Fonts;
@@ -84,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				C26ACC3D2D3C679600170459 /* Info.plist */,
+				0E5B21FC2D6E4D99003DD485 /* Preview Content */,
 				C26ACC3A2D3C673900170459 /* Fonts */,
-				C26ACC312D3C669800170459 /* Preview Content */,
 				C26ACC2D2D3C669800170459 /* Assets.xcassets */,
 				C26ACC3F2D3CB3DA00170459 /* GoogleService-Info.plist */,
 				C26ACC302D3C669800170459 /* Preview Assets.xcassets */,
@@ -97,13 +102,6 @@
 				C2CEAD712D590DA500FE31B4 /* Onboarding.swift */,
 			);
 			path = PeronoAI;
-			sourceTree = "<group>";
-		};
-		C26ACC312D3C669800170459 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		C2935EB92D3F0FCE00B7AB1E /* Frameworks */ = {
@@ -129,6 +127,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				0E5B21FC2D6E4D99003DD485 /* Preview Content */,
 				C26ACC3A2D3C673900170459 /* Fonts */,
 			);
 			name = PeronoAI;

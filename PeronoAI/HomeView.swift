@@ -5,6 +5,7 @@ import SwiftUI
 enum Tab: String, CaseIterable, Identifiable {
     case home = "house.fill"
     case lessons = "book.fill"
+    case community = "person.3.fill"
     case profile = "person.fill"
     
     var id: String { self.rawValue }
@@ -15,6 +16,8 @@ enum Tab: String, CaseIterable, Identifiable {
             return "Home"
         case .lessons:
             return "Lessons"
+        case .community:
+            return "Community"
         case .profile:
             return "Profile"
         }
@@ -135,6 +138,37 @@ struct MinimalProfileView: View {
     }
 }
 
+struct MinimalCommunityView: View {
+    var body: some View {
+        NavigationView {
+            ZStack {
+                // Gradient background for Lessons
+                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]),
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
+                    .ignoresSafeArea()
+                
+                VStack(spacing: 20) {
+                    Text("Community")
+                        .font(.system(size: 36, weight: .bold, design: .rounded))
+                        .foregroundColor(.white)
+                        .padding(.top, 40)
+                    
+                    Text("Engage with others around you")
+                        .font(.system(size: 18, weight: .regular, design: .rounded))
+                        .foregroundColor(.white.opacity(0.9))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 30)
+                    
+                    Spacer()
+                }
+                .padding()
+            }
+            .navigationTitle("Community")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+}
 // MARK: - Custom Bottom Navigation Bar
 
 struct CustomBottomNavBar: View {
@@ -194,6 +228,8 @@ struct CustomTabView: View {
                     MinimalDashboardView().transition(.opacity)
                 case .lessons:
                     MinimalLessonsView().transition(.opacity)
+                case .community:
+                    MinimalCommunityView().transition(.opacity)
                 case .profile:
                     MinimalProfileView().transition(.opacity)
                 }
