@@ -6,14 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C26ACC332D3C669800170459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26ACC302D3C669800170459 /* Preview Assets.xcassets */; };
+		C26ACC342D3C669800170459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26ACC2D2D3C669800170459 /* Assets.xcassets */; };
+		C26ACC372D3C66C300170459 /* PeronoAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26ACC362D3C66C300170459 /* PeronoAIApp.swift */; };
+		C26ACC402D3CB3DA00170459 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26ACC3F2D3CB3DA00170459 /* GoogleService-Info.plist */; };
+		C26ACC432D3CB46000170459 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C26ACC422D3CB46000170459 /* FirebaseAnalytics */; };
+		C26ACC452D3CB46000170459 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C26ACC442D3CB46000170459 /* FirebaseAuth */; };
+		C26ACC472D3CB46000170459 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C26ACC462D3CB46000170459 /* FirebaseCrashlytics */; };
+		C26ACC492D3CB46000170459 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C26ACC482D3CB46000170459 /* FirebaseFirestore */; };
+		C28DAC3B2D48AE09006887DC /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = C28DAC3A2D48AE09006887DC /* OpenAI */; };
+		C2935EBB2D3F0FCE00B7AB1E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C2935EBA2D3F0FCE00B7AB1E /* FirebaseCore */; };
+		C2CEAD6E2D5822DC00FE31B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CEAD6D2D5822DC00FE31B4 /* HomeView.swift */; };
+		C2CEAD702D58230200FE31B4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CEAD6F2D58230200FE31B4 /* WelcomeView.swift */; };
+		C2CEAD722D590DA500FE31B4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CEAD712D590DA500FE31B4 /* Onboarding.swift */; };
+		C2CEAD742D59108400FE31B4 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CEAD732D59108400FE31B4 /* Auth.swift */; };
+		C2CEAD782D5918ED00FE31B4 /* AuthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CEAD772D5918ED00FE31B4 /* AuthButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C26ACC172D3C414D00170459 /* PeronoAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeronoAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26ACC2D2D3C669800170459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26ACC302D3C669800170459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C26ACC362D3C66C300170459 /* PeronoAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeronoAIApp.swift; sourceTree = "<group>"; };
+		C26ACC3D2D3C679600170459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C26ACC3F2D3CB3DA00170459 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2CEAD6D2D5822DC00FE31B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2CEAD6F2D58230200FE31B4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C2CEAD712D590DA500FE31B4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		C2CEAD732D59108400FE31B4 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		C2CEAD772D5918ED00FE31B4 /* AuthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C26ACC192D3C414D00170459 /* PeronoAI */ = {
+		C26ACC3A2D3C673900170459 /* Fonts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PeronoAI;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +51,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26ACC472D3CB46000170459 /* FirebaseCrashlytics in Frameworks */,
+				C2935EBB2D3F0FCE00B7AB1E /* FirebaseCore in Frameworks */,
+				C26ACC492D3CB46000170459 /* FirebaseFirestore in Frameworks */,
+				C26ACC432D3CB46000170459 /* FirebaseAnalytics in Frameworks */,
+				C28DAC3B2D48AE09006887DC /* OpenAI in Frameworks */,
+				C26ACC452D3CB46000170459 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +66,8 @@
 		C26ACC0E2D3C414D00170459 = {
 			isa = PBXGroup;
 			children = (
-				C26ACC192D3C414D00170459 /* PeronoAI */,
+				C26ACC2F2D3C669800170459 /* PeronoAI */,
+				C2935EB92D3F0FCE00B7AB1E /* Frameworks */,
 				C26ACC182D3C414D00170459 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +78,39 @@
 				C26ACC172D3C414D00170459 /* PeronoAI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C26ACC2F2D3C669800170459 /* PeronoAI */ = {
+			isa = PBXGroup;
+			children = (
+				C26ACC3D2D3C679600170459 /* Info.plist */,
+				C26ACC3A2D3C673900170459 /* Fonts */,
+				C26ACC312D3C669800170459 /* Preview Content */,
+				C26ACC2D2D3C669800170459 /* Assets.xcassets */,
+				C26ACC3F2D3CB3DA00170459 /* GoogleService-Info.plist */,
+				C26ACC302D3C669800170459 /* Preview Assets.xcassets */,
+				C26ACC362D3C66C300170459 /* PeronoAIApp.swift */,
+				C2CEAD732D59108400FE31B4 /* Auth.swift */,
+				C2CEAD6D2D5822DC00FE31B4 /* HomeView.swift */,
+				C2CEAD772D5918ED00FE31B4 /* AuthButtonStyle.swift */,
+				C2CEAD6F2D58230200FE31B4 /* WelcomeView.swift */,
+				C2CEAD712D590DA500FE31B4 /* Onboarding.swift */,
+			);
+			path = PeronoAI;
+			sourceTree = "<group>";
+		};
+		C26ACC312D3C669800170459 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2935EB92D3F0FCE00B7AB1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,10 +129,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C26ACC192D3C414D00170459 /* PeronoAI */,
+				C26ACC3A2D3C673900170459 /* Fonts */,
 			);
 			name = PeronoAI;
 			packageProductDependencies = (
+				C26ACC422D3CB46000170459 /* FirebaseAnalytics */,
+				C26ACC442D3CB46000170459 /* FirebaseAuth */,
+				C26ACC462D3CB46000170459 /* FirebaseCrashlytics */,
+				C26ACC482D3CB46000170459 /* FirebaseFirestore */,
+				C2935EBA2D3F0FCE00B7AB1E /* FirebaseCore */,
+				C28DAC3A2D48AE09006887DC /* OpenAI */,
 			);
 			productName = PeronoAI;
 			productReference = C26ACC172D3C414D00170459 /* PeronoAI.app */;
@@ -82,6 +156,7 @@
 				TargetAttributes = {
 					C26ACC162D3C414D00170459 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -94,6 +169,10 @@
 			);
 			mainGroup = C26ACC0E2D3C414D00170459;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C28DAC392D48AE09006887DC /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C26ACC182D3C414D00170459 /* Products */;
 			projectDirPath = "";
@@ -109,6 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26ACC402D3CB3DA00170459 /* GoogleService-Info.plist in Resources */,
+				C26ACC332D3C669800170459 /* Preview Assets.xcassets in Resources */,
+				C26ACC342D3C669800170459 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CEAD722D590DA500FE31B4 /* Onboarding.swift in Sources */,
+				C26ACC372D3C66C300170459 /* PeronoAIApp.swift in Sources */,
+				C2CEAD6E2D5822DC00FE31B4 /* HomeView.swift in Sources */,
+				C2CEAD782D5918ED00FE31B4 /* AuthButtonStyle.swift in Sources */,
+				C2CEAD742D59108400FE31B4 /* Auth.swift in Sources */,
+				C2CEAD702D58230200FE31B4 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +337,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PeronoAI/Preview Content\"";
 				DEVELOPMENT_TEAM = A454G38D8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeronoAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -268,6 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hd5.PeronoAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -278,12 +369,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PeronoAI/Preview Content\"";
 				DEVELOPMENT_TEAM = A454G38D8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeronoAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +417,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+		C28DAC392D48AE09006887DC /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C26ACC422D3CB46000170459 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C26ACC442D3CB46000170459 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C26ACC462D3CB46000170459 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C26ACC482D3CB46000170459 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C28DAC3A2D48AE09006887DC /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C28DAC392D48AE09006887DC /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		C2935EBA2D3F0FCE00B7AB1E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C26ACC412D3CB46000170459 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C26ACC0F2D3C414D00170459 /* Project object */;
 }
